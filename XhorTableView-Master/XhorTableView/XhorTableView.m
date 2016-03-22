@@ -79,6 +79,9 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    tmpBlock(indexPath.row);
+    if (tmpBlock) {
+        tmpBlock(indexPath.row);
+    }
+    
 }
 @end
