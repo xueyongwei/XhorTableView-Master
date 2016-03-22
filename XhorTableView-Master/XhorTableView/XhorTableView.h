@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef void(^XhorTbaleViewBlock) (NSInteger index);
 @interface XhorTableView : UIView<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong)NSMutableArray *dataSource;
 @property (nonatomic,assign)CGFloat tableViewCellHeight;
 -(void)XtableViewReload;
+-(void)XhorTbaleViewDidSelectedWIthBlock:(XhorTbaleViewBlock)block;
 @end
