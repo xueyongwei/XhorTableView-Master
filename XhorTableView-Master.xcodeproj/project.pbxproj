@@ -13,6 +13,9 @@
 		476DA9101CA1421A00973BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476DA90E1CA1421A00973BD3 /* Main.storyboard */; };
 		476DA9121CA1421A00973BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476DA9111CA1421A00973BD3 /* Assets.xcassets */; };
 		476DA9151CA1421A00973BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476DA9131CA1421A00973BD3 /* LaunchScreen.storyboard */; };
+		476DA9221CA1422200973BD3 /* XhorTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DA91E1CA1422200973BD3 /* XhorTableView.m */; };
+		476DA9231CA1422200973BD3 /* XtableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 476DA9201CA1422200973BD3 /* XtableCell.m */; };
+		476DA9241CA1422200973BD3 /* XtableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476DA9211CA1422200973BD3 /* XtableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		476DA9111CA1421A00973BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		476DA9141CA1421A00973BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		476DA9161CA1421A00973BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476DA91D1CA1422200973BD3 /* XhorTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XhorTableView.h; sourceTree = "<group>"; };
+		476DA91E1CA1422200973BD3 /* XhorTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XhorTableView.m; sourceTree = "<group>"; };
+		476DA91F1CA1422200973BD3 /* XtableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XtableCell.h; sourceTree = "<group>"; };
+		476DA9201CA1422200973BD3 /* XtableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XtableCell.m; sourceTree = "<group>"; };
+		476DA9211CA1422200973BD3 /* XtableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XtableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		476DA9041CA1421A00973BD3 /* XhorTableView-Master */ = {
 			isa = PBXGroup;
 			children = (
+				476DA91C1CA1422200973BD3 /* XhorTableView */,
 				476DA9081CA1421A00973BD3 /* AppDelegate.h */,
 				476DA9091CA1421A00973BD3 /* AppDelegate.m */,
 				476DA90B1CA1421A00973BD3 /* ViewController.h */,
@@ -77,6 +86,18 @@
 				476DA9061CA1421A00973BD3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		476DA91C1CA1422200973BD3 /* XhorTableView */ = {
+			isa = PBXGroup;
+			children = (
+				476DA91D1CA1422200973BD3 /* XhorTableView.h */,
+				476DA91E1CA1422200973BD3 /* XhorTableView.m */,
+				476DA91F1CA1422200973BD3 /* XtableCell.h */,
+				476DA9201CA1422200973BD3 /* XtableCell.m */,
+				476DA9211CA1422200973BD3 /* XtableCell.xib */,
+			);
+			path = XhorTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +161,7 @@
 				476DA9151CA1421A00973BD3 /* LaunchScreen.storyboard in Resources */,
 				476DA9121CA1421A00973BD3 /* Assets.xcassets in Resources */,
 				476DA9101CA1421A00973BD3 /* Main.storyboard in Resources */,
+				476DA9241CA1422200973BD3 /* XtableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +174,9 @@
 			files = (
 				476DA90D1CA1421A00973BD3 /* ViewController.m in Sources */,
 				476DA90A1CA1421A00973BD3 /* AppDelegate.m in Sources */,
+				476DA9221CA1422200973BD3 /* XhorTableView.m in Sources */,
 				476DA9071CA1421A00973BD3 /* main.m in Sources */,
+				476DA9231CA1422200973BD3 /* XtableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
